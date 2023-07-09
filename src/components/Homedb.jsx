@@ -2,7 +2,7 @@ import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 
 
-const Home = () => {
+const Homedb = () => {
     const[data,setData]=useState([]);
     
     useEffect(()=>{
@@ -37,4 +37,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Homedb

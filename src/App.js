@@ -2,8 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, Form, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
-import Home from './components/Home';
-import Form from './components/Form';
+import Homedb from './components/Homedb';
+import Formemp from './components/Formemp';
 
 function App() {
   return (
@@ -11,8 +11,8 @@ function App() {
       <Header/>
       <BrowserRouter>
       <Routes>
-        <Route path="/home" element={<Home/>}/>
-        <Route path="/form" element={<Form/>}/>
+        <Route path="/home" element={<Homedb/>}/>
+        <Route path="/form" element={<Formemp/>}/>
       </Routes>
       </BrowserRouter>
     </div>

@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const Form = () => {
+const Formemp = () => {
   return (
     <div>
         <div className="container-sm mt-5 pt-5 bg-secondary-subtle rounded">
@@ -65,4 +65,4 @@ const Form = () => {
   )
 }
 
-export default Form
+export default Formemp
