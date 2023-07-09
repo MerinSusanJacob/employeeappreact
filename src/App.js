@@ -9,12 +9,12 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      <HashRouter basename='/employeeappreact'>
+      <BrowserRouter>
       <Routes>
         <Route path="/home" element={<Homedb/>}/>
         <Route path="/form" element={<Formemp/>}/>
       </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </div>
   );
 }
