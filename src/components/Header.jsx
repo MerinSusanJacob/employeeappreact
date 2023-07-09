@@ -13,7 +13,7 @@ const Header = () => {
             
                 <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="/">
+                    <a className="nav-link active" aria-current="page" href="/home">
                         <button type="button" className="btn btn-success">Home</button>
                     </a>
                 </li>
